@@ -1,0 +1,88 @@
+ #Guardar{
+        margin:8%;
+        border: solid 1px blue;
+        width:36%;
+        height:5%;
+        position: absolute;
+        top:80%;     
+        left:48%;      
+    } #Nueva{
+        margin:8%;
+        border: solid 1px blue;
+        width:36%;
+        height:5%;
+        position: absolute;
+        top:80%;           
+    }
+    #cierras{
+        margin:1%;
+        border: none;
+        background: #f7eea7cf;  
+        width:38%;
+        height:4%;
+        position: absolute;
+        top:0%;   
+        left:60%;        
+    }
+    #marco{
+        margin:20px;
+        border: solid 1px #f7eea7cf;
+        background: #f7eea7cf;  
+        width:22%;
+        height:70%;
+        position: absolute;                       
+    }
+    
+    #t1{ margin:4px;        
+        position: absolute;
+        width:40%;
+        left:2%;
+    }
+    #t2{ margin:4px;       
+        position: absolute;
+        width:50%;
+        left:45%;
+    }
+    #t3{ margin:4px;       
+        position: absolute;
+        width:100%;
+        top:68%;  
+    }
+    #Ruta{
+        margin:20px;
+        border: solid 1px blue;
+        width:36%;
+        height:5%;
+        position: absolute;
+        top:44%;   
+        left:46%;           
+    }
+    #labelnr{          
+        position: absolute;
+        top:44%;   
+        left:16%;     
+    }
+    #npunto{        
+        position: absolute;
+        top:56%;  
+        left:20%;             
+    }
+    #lpunto{        
+        position: absolute;
+        top:52%;  
+        left:16%;             
+    }
+    #lve{
+        margin:20px;
+        position: absolute;
+        top:52%;   
+        left:46%;      
+    }
+
+    #ve{
+        margin:20px;
+        width:36%;
+        position: absolute;
+        top:56%; 
+        left:46%;            
+    }

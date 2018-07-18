@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta chipset ="utf-8">
+    <title>Ambiente de pruebas </title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js" ></script>
+
+    <script src="jquery/Script.js"></script>
+    <link rel="stylesheet" href="Css/ruta.css" type="text/css" media="all"/>    
+</head>
+        <!-- Autor:  Eliéser Ramírez -->
+<body   background="mapabta.jpg" style="background-repeat:no-repeat"; >
+    <div id="map" background="mapabta.jpg" style="background-repeat:no-repeat";>         
+    </div>
+        <div id = "marco" >
+            <h4 id ="help">Coloque el número de ruta <br>
+                De click en el mapa para dibujar la ruta.<br><br>
+                Digite la velocidad(con teclado) para cada punto, de acuerdo a la siguiente lista.
+            </h4> 
+                                
+            <div id="t1"> <h5>  1 Rapido.<br>                2 Despacio.</h5>
+            </div>
+                                            
+            <div id = "t2"><h5>   3 Muy despacio <br>    4 Leeeento.  </h5> 
+            </div>
+                   
+
+            <h4 id ="labelnr"> N° Ruta</h4>  <input id="Ruta" onfocusout="deshabita()" > </input>  
+            <h4 id ="Lpunto"> Punto </h4>    <h4 id ="npunto">  </h4>
+
+            <h4 id ="lve"> Velocidad</h4>  <input id="ve" > </input>  
+        
+            <div id="t3"> <h4> Finaliza la ruta con doble click </h4>
+            </div>
+            
+
+            <button type="button" id="Guardar" onclick=GuardaRuta() >Guardar</button>    
+            <button type="button" id="Nueva" onclick=IniciaRuta() >Nueva Ruta</button>       
+            <button type="button" id="cierras" onclick=cierras() >Seccion X</button>   
+        </div>
+    
+    <div  border= "solid 1px blue";>
+            
+        <svg   width="100%" height="210%" > 
+            
+            <g width="100%" height="210%">
+            <polyline id="id_pline" stroke-linejoin="round" points="50,150  " stroke="blue" stroke-width="8" fill="none"></polyline>
+                
+            </g>
+        </svg>
+    </div>
+</body>
+
+</html>
+
